@@ -13,7 +13,7 @@ if missing_value_choice == "1":
     a = float(input("Enter acceleration (a): "))
     F = float(input("Enter force (F): "))
     m = F / a
-    print(f"Mass (m) = {m}")
+    print(f"Mass (m) = {m}") 
 
 elif missing_value_choice == "2":
     m = float(input("Enter mass (m): "))
@@ -30,4 +30,3 @@ elif missing_value_choice == "3":
 else:
     print("Invalid option selected for the missing value.")
 
-    ####
